@@ -19,16 +19,19 @@ public class App {
             System.out.println("litetTal= "+litetTal+",stortTal= "+stortTal);
 
 
-        /*Uppgift b */
-        int tal1=10;
-        int tal2=20;
+
+            /*Uppgift b och c */
+        System.out.println(" ");
+        int tal1=20;
+        int tal2=0;
 
         if(tal2>tal1){
             System.out.println(tal2+" är större än "+tal1);
         }
         else{
-            System.out.println(tal2+" är midnre än "+tal1);
+            System.out.println(tal2+" är mindre än "+tal1);
         }
+
 
     }
 }
