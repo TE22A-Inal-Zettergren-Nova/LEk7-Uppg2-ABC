@@ -2,8 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         /* Uppgift a*/
-        /* Koden funkade inte för att stortTal variabeln inte är utanför if statementet*/
-        /*Flyttar stortal så att den är utanför if statmentet*/
+        /* Koden funkade inte för att stortTal variabeln inte är utanför if satsen*/
+        /*Flyttar stortal så att den är utanför if satsen*/
 
         int litetTal=10;
         int stortTal=1000;
@@ -18,7 +18,19 @@ public class App {
         }
             System.out.println("litetTal= "+litetTal+",stortTal= "+stortTal);
 
+
+        /*Uppgift b */
+        int tal1=10;
+        int tal2=20;
+
+        if(tal2>tal1){
+            System.out.println(tal2+" är större än "+tal1);
+        }
+        else{
+            System.out.println(tal2+" är midnre än "+tal1);
+        }
+
     }
 }
 
-        /*Uppgift b */
+       
